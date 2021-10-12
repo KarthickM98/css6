@@ -1,0 +1,170 @@
+.fa-dragon{
+    position: absolute;
+    left: 100px;
+    top: 60px;
+    font-size: 40px;
+    
+}
+.fa-bars{
+    position: absolute;
+    right: 8px;
+    top: 5px;
+    font-size: 25px;   
+}
+body{
+  color: white;
+  background-image: url(./shara_desert.jpeg);
+  font-family: 'Courier New', Courier, monospace;
+}
+.top-options{
+    position: relative;
+    top: 50px;
+    right: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+a{
+    text-decoration: none;
+    margin: 0px 30px 0px 30px ;
+    color: white;
+}
+.bars{
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    height: 36px;
+    width: 36px;
+    border-radius: 50%;
+    background: #635e5e;
+}
+h1,h3{font-family: 'Times New Roman', Times, serif;}
+h1{
+    font-size: 100px;
+    margin: 200px 0px 0px 80px;
+}
+h3{ margin: 20px;}
+p{
+    margin: 0px 54% 0px 80px;
+}
+.butn{
+    color: black;
+    height: fit-content;
+    width: 120px;
+    border-radius: 25px;
+    background: rgb(75, 72, 72);
+    margin-left: 85px;
+    font-size: 25px;
+}
+.container{
+    position: absolute;
+    right: 5%;
+    top: 30%;
+    height: 60%;
+    width: 45%;
+
+
+}
+.b1{
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    background-image: url(./saharapic-1.png);
+    border-radius: 10px;
+    height: 180px;
+    width: 250px;
+    z-index: 1;
+    transition: transform .1s linear;
+}
+.b1:hover{transform: translatey(-15px);}
+.b2{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    background-image: url(./saharapic-2.png);
+    border-radius: 10px;
+    height: 180px;
+    width: 250px;
+    z-index: 1;
+    transition: transform .1s linear;
+}
+.b2:hover{transform: translatey(-15px);}
+.b3{
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+    background-image: url(./saharapic-3.png);
+    border-radius: 10px;
+    height: 180px;
+    width: 250px;
+    z-index: 1;
+    transition: transform .1s linear;
+}
+.b3:hover{transform: translatey(-15px);}
+.b4{
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    background-image: url(./saharapic-4.png);
+    border-radius: 10px;
+    height: 180px;
+    width: 250px;
+    z-index: 1;
+    transition: transform .1s linear;
+}
+.b4:hover{transform: translatey(-15px);}
+
+/* MEDIA QUERY */
+
+@media screen and (max-width:856px) {
+h1{
+    margin-top: 80px;
+    font-size: 30px;
+}
+p{
+    margin: 10px 20px 0px 80px;
+}
+.container{
+    position: absolute;
+    left: 80px;
+    top: 230px;
+    height: 700px;
+    width: 80%;
+}
+.b1{
+    height: 150px;
+    width: 90%;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.b2{
+    height: 150px;
+    width: 90%;
+    position: absolute;
+    top: 180px;
+    left: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.b3{
+    height: 150px;
+    width: 90%;
+    position: absolute;
+    top: 350px;
+    left: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.b4{
+    height: 150px;
+    width: 90%;
+    position: absolute;
+    top: 520px;
+    left: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+}
